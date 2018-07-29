@@ -1,1 +1,1 @@
-module.exports = require('./lib/bls');
+module.exports = require('./lib/bls2');
