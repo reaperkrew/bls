@@ -42,3 +42,7 @@ bls.fetch(options).then(function (response) {
 * `endyear` (string representing the year you want the data to end at)
 
 Refer to the [US Bureau of Labor Statistics Developer Website](https://www.bls.gov/developers/) for all optional parameters.
+
+### Finding Series IDs
+
+The Bureau of Labor Statistics website has a wonderful [Data Finder](https://beta.bls.gov/dataQuery/search). To use it, type in the type of data you want to find, such as 'employment'. You will get a list of results. Hover over each link, the `seriesid` will be the final parameter in the link. For example, upon searching for 'employment', one of the results is labeled '(Seas) Employment Level', the URL is https://beta.bls.gov/dataViewer/view/timeseries/LNS12000000, so the `seriesid` is `LNS12000000`. Add that to your array of `seriesid` and wa la!
