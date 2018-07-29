@@ -1,0 +1,25 @@
+{
+  "name": "bls",
+  "version": "1.0.0",
+  "description": "Bureau of Labor Statistics API 2.0 Wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "bls"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reaperkrew/bls.git"
+  },
+  "author": "reaperkrew",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0"
+  }
+}
