@@ -7,16 +7,20 @@ This is an independent wrapper library to make API calls to the Bureau of Labor 
 
 In order to use the Bureau of Labor Statistics API 2.0, you must register an API key. Please visit [US Bureau of Labor Statistics Developer Website](https://www.bls.gov/developers/) to register your key and learn how to use the API.
 
+### Installation
+
+`npm install bls2`
+
 
 ### Usage
 
 ```javascript
 
-var Bls = require('bls');
+var Bls2 = require('bls2');
 
 const API_KEY = 'YOUR API KEY';
 
-let bls = new Bls(API_KEY);
+let bls = new Bls2(API_KEY);
 
 let options = {
     'seriesid': ['CES3000000001'],

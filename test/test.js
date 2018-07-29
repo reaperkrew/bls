@@ -1,12 +1,12 @@
 var expect = require('expect.js');
 
-var Bls = require('../lib/bls');
+var Bls2 = require('../lib/bls2');
 
 describe('Initialization', function() {
   describe('Constructor', function() {
     it('should throw an error if an api key is not sent to the constructor', function() {
 
-      expect(() => {new Bls();})
+      expect(() => {new Bls2();})
       .to.throwError();
 
     });
@@ -19,7 +19,7 @@ describe('Options', function() {
 
       expect(() => {
           const API_KEY = 'MY_API_KEY';
-          let bls = new Bls(API_KEY);
+          let bls = new Bls2(API_KEY);
           let options = {
               'startyear': '2008',  
               'endyear': '2018',
@@ -38,7 +38,7 @@ describe('Options', function() {
 
       expect(() => {
           const API_KEY = 'MY_API_KEY';
-          let bls = new Bls(API_KEY);
+          let bls = new Bls2(API_KEY);
           let options = {
             'seriesid': ['CES3000000001'],
             'endyear': '2018',
@@ -58,7 +58,7 @@ describe('Options', function() {
 
       expect(() => {
           const API_KEY = 'MY_API_KEY';
-          let bls = new Bls(API_KEY);
+          let bls = new Bls2(API_KEY);
           let options = {
             'seriesid': ['CES3000000001'],
             'startyear': '2008',
