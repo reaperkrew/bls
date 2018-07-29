@@ -37,7 +37,7 @@ bls.fetch(options).then(function (response) {
 
 #### Required Parameters
 
-* `seriesid` (Array, you can find series ids at the [BLS website](https://www.bls.gov/))
+* `seriesid` (Array, you can find series ids using the [Data Finder](https://beta.bls.gov/dataQuery/search))
 * `startyear` (string representing the year you want the data to start at)
 * `endyear` (string representing the year you want the data to end at)
 
