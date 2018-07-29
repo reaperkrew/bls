@@ -1,6 +1,6 @@
 {
   "name": "bls2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bureau of Labor Statistics API 2.0 Wrapper for Node.js",
   "main": "index.js",
   "scripts": {
